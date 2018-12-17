@@ -1,13 +1,198 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1ca61ad0-6611-4e75-8435-96b0bbffb615" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/plugin/redis/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plugin/redis/redis.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/dev.js" beforeDir="false" afterPath="$PROJECT_DIR$/conf/dev.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/query.js" beforeDir="false" afterPath="$PROJECT_DIR$/controller/query.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/server/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/core/server/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plugin/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/plugin/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/dbMongoTest.js" beforeDir="false" afterPath="$PROJECT_DIR$/test/dbMongoTest.js" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="server.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/core/server/server.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="371">
+              <caret line="58" column="37" selection-start-line="58" selection-start-column="30" selection-end-line="58" selection-end-column="37" />
+              <folding>
+                <element signature="n#!!doc;n#APP#0" />
+                <element signature="n#!!doc;n#start#0;n#APP#0" />
+                <element signature="n#!!doc;n#stop#0;n#APP#0" />
+                <element signature="n#!!block;n#stop#0;n#APP#0" />
+                <element signature="n#!!doc;n#restart#0;n#APP#0" />
+                <element signature="n#!!block;n#restart#0;n#APP#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/conf/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="2" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="prod.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/conf/prod.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="dev.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/conf/dev.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="320">
+              <caret line="28" column="27" lean-forward="true" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="redis.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plugin/redis/redis.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="22" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/plugin/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="9" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="plugin.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/plugin/plugin.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="21" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>console</find>
+      <find>parser</find>
+      <find>global</find>
+      <find>setupListenHandle</find>
+      <find>middleWare</find>
+      <find>Mysql</find>
+      <find>db</find>
+      <find>redis</find>
+      <find>plugin</find>
+      <find>-=-=</find>
+      <find>127.0.0.1</find>
+      <find>RedisClient</find>
+    </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/node_modules/_mongodb@3.1.10@mongodb</dir>
+      <dir>$PROJECT_DIR$/core</dir>
+      <dir>$PROJECT_DIR$</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/core/route/route.js" />
+        <option value="$PROJECT_DIR$/controller/query.js" />
+        <option value="$PROJECT_DIR$/plugin/index.js" />
+        <option value="$PROJECT_DIR$/plugin/redis/index.js" />
+        <option value="$PROJECT_DIR$/conf/dev.js" />
+        <option value="$PROJECT_DIR$/plugin/redis/redis.js" />
+        <option value="$PROJECT_DIR$/core/server/server.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
   <component name="NodePackageJsonFileManager">
-    <packageJsonPaths />
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/package.json" />
+    </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="32" />
-    <option name="y" value="88" />
+    <option name="x" value="368" />
+    <option name="y" value="23" />
     <option name="width" value="1648" />
     <option name="height" value="889" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="easyNode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="easyNode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="easyNode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="easyNode" type="462c0819:PsiDirectoryNode" />
+              <item name="conf" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="easyNode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="easyNode" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="easyNode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="easyNode" type="462c0819:PsiDirectoryNode" />
+              <item name="plugin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="easyNode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="easyNode" type="462c0819:PsiDirectoryNode" />
+              <item name="plugin" type="462c0819:PsiDirectoryNode" />
+              <item name="redis" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -15,5 +200,589 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/plugin/redis" />
+      <recent name="$PROJECT_DIR$/plugin" />
+      <recent name="$PROJECT_DIR$/core/redis" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="easyNode" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="node" path-to-js-file="app.js" working-dir="$PROJECT_DIR$">
+      <envs>
+        <env name="NODE_ENV" value="development" />
+      </envs>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1ca61ad0-6611-4e75-8435-96b0bbffb615" name="Default" comment="" />
+      <created>1544240199065</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1544240199065</updated>
+      <workItem from="1544240200755" duration="11576000" />
+      <workItem from="1544769425492" duration="7679000" />
+      <workItem from="1544941591829" duration="6879000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="26134000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="368" y="23" width="1648" height="889" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10755993" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.35890767" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32769832" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.5422627" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.41612485" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugin/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="52" selection-start-line="3" selection-start-column="52" selection-end-line="3" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/plugin/plugin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="21" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/plugin/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6" selection-start-column="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/server/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="48" selection-start-line="48" selection-end-line="49" />
+          <folding>
+            <element signature="e#14#53#0" />
+            <element signature="n#!!doc;n#APP#0" />
+            <element signature="n#!!doc;n#start#0;n#APP#0" />
+            <element signature="n#!!doc;n#stop#0;n#APP#0" />
+            <element signature="n#!!block;n#stop#0;n#APP#0" />
+            <element signature="e#1820#2141#0" />
+            <element signature="e#1838#2072#0" />
+            <element signature="e#1935#2056#0" />
+            <element signature="e#2083#2131#0" />
+            <element signature="n#!!doc;n#restart#0;n#APP#0" />
+            <element signature="n#!!block;n#restart#0;n#APP#0" />
+            <element signature="e#2304#2518#0" />
+            <element signature="e#2322#2417#0" />
+            <element signature="e#2428#2508#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugin/redis/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="23" lean-forward="true" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugin/log/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugin/log/log.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugin/redis/redis.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="11" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugin/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/server/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="51" column="28" selection-start-line="51" selection-start-column="28" selection-end-line="51" selection-end-column="28" />
+          <folding>
+            <element signature="e#14#53#0" />
+            <element signature="n#!!doc;n#APP#0" />
+            <element signature="n#!!doc;n#start#0;n#APP#0" />
+            <element signature="n#!!doc;n#stop#0;n#APP#0" />
+            <element signature="n#!!block;n#stop#0;n#APP#0" />
+            <element signature="e#1820#2141#0" />
+            <element signature="e#1838#2072#0" />
+            <element signature="e#1935#2056#0" />
+            <element signature="e#2083#2131#0" />
+            <element signature="n#!!doc;n#restart#0;n#APP#0" />
+            <element signature="n#!!block;n#restart#0;n#APP#0" />
+            <element signature="e#2304#2518#0" />
+            <element signature="e#2322#2417#0" />
+            <element signature="e#2428#2508#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/_mongodb@3.1.10@mongodb/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-362" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/_mongodb-core@3.1.9@mongodb-core/lib/topologies/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="43" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/server/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="35" selection-start-column="35" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/middleWare/middleWare.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-40" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/redis/index.js" />
+    <entry file="file://$PROJECT_DIR$/plugin/fastInterface/fastInterface.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1255">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugin/mysql/lib/is.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/router/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugin/log/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugin/log/log.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="38" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugin/mysql/dbMysql.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="90" column="7" lean-forward="true" selection-start-line="90" selection-start-column="7" selection-end-line="90" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#105#0" />
+            <element signature="e#228#329#0" />
+            <element signature="e#371#902#0" />
+            <element signature="e#471#587#0" />
+            <element signature="e#506#577#0" />
+            <element signature="e#614#829#0" />
+            <element signature="e#649#817#0" />
+            <element signature="e#908#1027#0" />
+            <element signature="e#1080#1196#0" />
+            <element signature="n#!!doc;n#Mysql#0" />
+            <element signature="n#!!doc;n#query#0;n#Mysql#0" />
+            <element signature="n#!!block;n#query#0;n#Mysql#0" />
+            <element signature="e#1647#2132#0" />
+            <element signature="e#1700#2120#0" />
+            <element signature="e#1789#2103#0" />
+            <element signature="e#1860#1947#0" />
+            <element signature="e#1959#2083#0" />
+            <element signature="n#!!doc;n#insert#0;n#Mysql#0" />
+            <element signature="n#!!block;n#insert#0;n#Mysql#0" />
+            <element signature="e#2346#3562#0" />
+            <element signature="e#2364#3499#0" />
+            <element signature="e#2631#3090#0" />
+            <element signature="e#2673#3070#0" />
+            <element signature="e#2798#2928#0" />
+            <element signature="e#3117#3441#0" />
+            <element signature="e#3159#3280#0" />
+            <element signature="e#3510#3552#0" />
+            <element signature="n#!!doc;n#update#0;n#Mysql#0" />
+            <element signature="n#!!block;n#update#0;n#Mysql#0" />
+            <element signature="e#3776#4316#0" />
+            <element signature="e#3794#4253#0" />
+            <element signature="e#4005#4087#0" />
+            <element signature="e#4264#4306#0" />
+            <element signature="n#!!doc;n#select#0;n#Mysql#0" />
+            <element signature="n#!!block;n#select#0;n#Mysql#0" />
+            <element signature="e#4530#6007#0" />
+            <element signature="e#4548#5944#0" />
+            <element signature="e#4903#4993#0" />
+            <element signature="e#4999#5056#0" />
+            <element signature="e#5187#5295#0" />
+            <element signature="e#5606#5749#0" />
+            <element signature="e#5829#5897#0" />
+            <element signature="e#5955#5997#0" />
+            <element signature="n#!!doc;n#remove#0;n#Mysql#0" />
+            <element signature="n#!!block;n#remove#0;n#Mysql#0" />
+            <element signature="e#6275#6893#0" />
+            <element signature="e#6293#6830#0" />
+            <element signature="e#6391#6516#0" />
+            <element signature="e#6545#6772#0" />
+            <element signature="e#6588#6752#0" />
+            <element signature="e#6841#6883#0" />
+            <element signature="n#!!doc;n#sqlTransaction#0;n#Mysql#0" />
+            <element signature="n#!!block;n#sqlTransaction#0;n#Mysql#0" />
+            <element signature="e#7099#7247#0" />
+            <element signature="e#7152#7235#0" />
+            <element signature="n#!!doc;n#Transaction#0" />
+            <element signature="n#Transaction#0" />
+            <element signature="n#!!block;n#constructor#0;n#Transaction#0" />
+            <element signature="n#!!doc;n#add#0;n#Transaction#0" />
+            <element signature="n#!!block;n#add#0;n#Transaction#0" />
+            <element signature="n#!!doc;n#exec#0;n#Transaction#0" />
+            <element signature="n#!!block;n#exec#0;n#Transaction#0" />
+            <element signature="e#7871#8377#0" />
+            <element signature="e#7956#8365#0" />
+            <element signature="e#7978#8290#0" />
+            <element signature="e#8047#8272#0" />
+            <element signature="e#8188#8247#0" />
+            <element signature="e#8301#8351#0" />
+            <element signature="n#!!block;n#query#0;n#Transaction#0" />
+            <element signature="e#8476#8826#0" />
+            <element signature="e#8534#8814#0" />
+            <element signature="e#8591#8780#0" />
+            <element signature="e#8667#8760#0" />
+            <element signature="n#!!block;n#commit#0;n#Transaction#0" />
+            <element signature="e#8923#9356#0" />
+            <element signature="e#8969#9344#0" />
+            <element signature="e#9025#9161#0" />
+            <element signature="e#9054#9141#0" />
+            <element signature="e#9201#9328#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugin/mongo/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/route/route.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="16" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="16" />
+          <folding>
+            <element signature="e#77#107#0" />
+            <element signature="e#109#175#0" />
+            <element signature="e#205#672#0" />
+            <element signature="e#505#566#0" />
+            <element signature="n#!!doc;n#Route#0" />
+            <element signature="e#787#836#0" />
+            <element signature="e#859#1013#0" />
+            <element signature="e#878#894#0" />
+            <element signature="e#914#930#0" />
+            <element signature="e#949#965#0" />
+            <element signature="e#987#1003#0" />
+            <element signature="e#1098#1173#0" />
+            <element signature="n#!!doc;n#get#0;n#Route#0" />
+            <element signature="n#!!doc;n#post#0;n#Route#0" />
+            <element signature="n#!!block;n#post#0;n#Route#0" />
+            <element signature="n#!!doc;n#both#0;n#Route#0" />
+            <element signature="n#!!block;n#both#0;n#Route#0" />
+            <element signature="n#!!doc;n#setup#0;n#Route#0" />
+            <element signature="n#!!block;n#setup#0;n#Route#0" />
+            <element signature="e#2564#2939#0" />
+            <element signature="e#2649#2791#0" />
+            <element signature="n#!!block;n#handle#0;n#Route#0" />
+            <element signature="e#3133#3428#0" />
+            <element signature="e#3272#3418#0" />
+            <element signature="e#3471#3529#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/coverage/lcov-report/utils/is.js.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-650" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/db/dbMongo.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1271" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/middleWare/body-parser.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/middleWare/xss.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/middleWare/sqlInjection.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="32" column="21" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/conf/config.log4j.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugin/mongo/dbMongo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="117" column="18" lean-forward="true" selection-start-line="117" selection-start-column="18" selection-end-line="117" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#63#0" />
+            <element signature="e#156#298#0" />
+            <element signature="e#164#194#0" />
+            <element signature="e#206#267#0" />
+            <element signature="e#227#263#0" />
+            <element signature="n#!!doc;n#Mongo#0" />
+            <element signature="n#!!doc;n#find#0;n#Mongo#0" />
+            <element signature="e#1117#1487#0" />
+            <element signature="e#1142#1195#0" />
+            <element signature="e#1215#1269#0" />
+            <element signature="e#1302#1475#0" />
+            <element signature="e#1328#1386#0" />
+            <element signature="e#1398#1461#0" />
+            <element signature="n#!!doc;n#findOne#0;n#Mongo#0" />
+            <element signature="n#!!block;n#findOne#0;n#Mongo#0" />
+            <element signature="n#!!doc;n#insert#0;n#Mongo#0" />
+            <element signature="n#!!block;n#insert#0;n#Mongo#0" />
+            <element signature="e#1926#2252#0" />
+            <element signature="e#1938#2163#0" />
+            <element signature="e#2034#2153#0" />
+            <element signature="e#2059#2112#0" />
+            <element signature="e#2174#2246#0" />
+            <element signature="e#2191#2236#0" />
+            <element signature="n#!!doc;n#update#0;n#Mongo#0" />
+            <element signature="e#2435#2793#0" />
+            <element signature="e#2447#2704#0" />
+            <element signature="e#2518#2558#0" />
+            <element signature="e#2575#2694#0" />
+            <element signature="e#2600#2653#0" />
+            <element signature="e#2715#2787#0" />
+            <element signature="e#2732#2777#0" />
+            <element signature="n#!!doc;n#remove#0;n#Mongo#0" />
+            <element signature="e#2976#3368#0" />
+            <element signature="e#2988#3279#0" />
+            <element signature="e#3022#3058#0" />
+            <element signature="e#3150#3269#0" />
+            <element signature="e#3175#3228#0" />
+            <element signature="e#3290#3362#0" />
+            <element signature="e#3307#3352#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/controller/controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="14" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/controller/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="5" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/base.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="39" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/query.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="28" column="18" lean-forward="true" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugin/mysql/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugin/redis/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/plugin/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6" selection-start-column="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/plugin/plugin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="21" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/_redis@2.8.0@redis/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="648" column="18" selection-start-line="648" selection-start-column="18" selection-end-line="648" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/prod.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="2" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/dev.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="28" column="27" lean-forward="true" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugin/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="9" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugin/redis/redis.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="22" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/server/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="58" column="37" selection-start-line="58" selection-start-column="30" selection-end-line="58" selection-end-column="37" />
+          <folding>
+            <element signature="n#!!doc;n#APP#0" />
+            <element signature="n#!!doc;n#start#0;n#APP#0" />
+            <element signature="n#!!doc;n#stop#0;n#APP#0" />
+            <element signature="n#!!block;n#stop#0;n#APP#0" />
+            <element signature="n#!!doc;n#restart#0;n#APP#0" />
+            <element signature="n#!!block;n#restart#0;n#APP#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

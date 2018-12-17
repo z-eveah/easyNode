@@ -8,7 +8,7 @@ module.exports = Object.assign({}, config, {
         config: {
           connectionLimit: 10,
           host: '127.0.0.1',
-          port: '3306',
+          port: '27017',
           user: 'root',
           password: 'ycdn8Tm5Nj',
           database: 'test'
@@ -20,6 +20,14 @@ module.exports = Object.assign({}, config, {
         error(err){
           console.log(err);
         }
+      }),
+
+      redis: new plugins.myredis({
+				client: {
+					port: 6379,
+					host:'127.0.0.1',
+					connect_timeout:1
+				},
       })
     },
     middleWare: [
