@@ -61,5 +61,5 @@ typings/
 .vscode
 
 # idea
-.idea/workspace.xml
+.idea
 
