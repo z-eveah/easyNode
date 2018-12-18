@@ -26,7 +26,7 @@ module.exports = Object.assign({}, config, {
 				client: {
 					port: 6379,
 					host:'127.0.0.1',
-					connect_timeout:1
+					connect_timeout:2000
 				},
       })
     },
