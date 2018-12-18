@@ -143,8 +143,8 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="433" />
-    <option name="y" value="41" />
+    <option name="x" value="844" />
+    <option name="y" value="23" />
     <option name="width" value="1648" />
     <option name="height" value="889" />
   </component>
@@ -234,27 +234,26 @@
       <updated>1544240199065</updated>
       <workItem from="1544240200755" duration="11576000" />
       <workItem from="1544769425492" duration="7679000" />
-      <workItem from="1544941591829" duration="11375000" />
+      <workItem from="1544941591829" duration="11398000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30630000" />
+    <option name="totallyTimeSpent" value="30653000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="433" y="41" width="1648" height="889" extended-state="0" />
-    <editor active="true" />
+    <frame x="844" y="23" width="1648" height="889" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10755993" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.35890767" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.35890767" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32769832" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.4473342" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.4473342" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.41612485" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
