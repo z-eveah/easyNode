@@ -8,7 +8,7 @@ module.exports = Object.assign({}, config, {
         config: {
           connectionLimit: 10,
           host: '127.0.0.1',
-          port: '3306',
+          port: '27017',
           user: 'root',
           password: 'ycdn8Tm5Nj',
           database: 'test'

@@ -11,9 +11,9 @@ let http = require('http'),
     Route = require('../route'),
     middleWare = require('../middleWare');
 
-    log4j.configure(log4jconf);
-    global.logger = log4j.getLogger('logInfo')
-    console.log = logger.info.bind(logger); 
+		log4j.configure(log4jconf);
+		global.logger = log4j.getLogger('logInfo')
+		console.log = logger.info.bind(logger);
 /**
  * 
  * @description 创建一个http实例

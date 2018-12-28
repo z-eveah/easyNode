@@ -15,7 +15,6 @@ let queryB = (app, req, res) => {
 }
 
 let queryC = (app, req, res, parms) => {
-    console.log(parms);
     res.writeHead('200', {
         'Content-Type': 'application/json'
     });
