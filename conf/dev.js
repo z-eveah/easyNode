@@ -20,14 +20,6 @@ module.exports = Object.assign({}, config, {
         error(err){
           console.log(err);
         }
-      }),
-
-      redis: new plugins.myredis({
-				client: {
-					port: 6379,
-					host:'127.0.0.1',
-					connect_timeout:2000
-				},
       })
     },
     middleWare: [
