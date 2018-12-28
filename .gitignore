@@ -60,3 +60,6 @@ typings/
 # vscode config file
 .vscode
 
+.idea
+.gitgnore
+
