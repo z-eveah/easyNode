@@ -34,7 +34,7 @@ class myredis {
 	connect () {
 		this.myRedis =  Redis.createClient(this.config.client.port, this.config.client.host,
 			{connect_timeout: this.config.client.connect_timeout}
-			);
+		);
 		this.myRedis.on("error", function(err) {
 			console.log('redis error',err)
 		});

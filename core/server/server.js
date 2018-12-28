@@ -4,6 +4,8 @@
  * http server构造器
  * @author 巴神
  */
+
+
 let http = require('http'),
     log4j = require('log4js'),
     log4jconf = require('../conf/config.log4j'),
@@ -11,9 +13,10 @@ let http = require('http'),
     Route = require('../route'),
     middleWare = require('../middleWare');
 
-    log4j.configure(log4jconf);
-    global.logger = log4j.getLogger('logInfo')
-    console.log = logger.info.bind(logger); 
+		log4j.configure(log4jconf);
+		//log4j.getLogger('console')
+		global.logger = log4j.getLogger('logInfo')
+		console.log = logger.info.bind(logger);
 /**
  * 
  * @description 创建一个http实例
@@ -48,6 +51,14 @@ class APP {
             try {
                 this.server.listen(this.config.port, 0, 0, 0, 0);
                 console.log('The server is running at port:' + this.config.port);
+							  let instance = this.redis.init();
+							  instance.set('testkey','testvalue',(err, res) => {
+							      console.log('set redis', err, res)
+                })
+
+                instance.get('testkey' , (err, res) => {
+                    console.log('get redis', err, res)
+                })
                 resolve(this);
             } catch (e) {
                 console.log(e);

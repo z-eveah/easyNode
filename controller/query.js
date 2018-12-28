@@ -1,3 +1,4 @@
+
 let queryA = (app, req, res) => {
     res.writeHead('200', {
         'Content-Type': 'text/html'
@@ -15,7 +16,6 @@ let queryB = (app, req, res) => {
 }
 
 let queryC = (app, req, res, parms) => {
-    console.log(parms);
     res.writeHead('200', {
         'Content-Type': 'application/json'
     });
